@@ -1,0 +1,40 @@
+/* line 2, sass/style.sass */
+body {
+  background-color: #dcdbd9;
+  color: #2c2c2c;
+  font: normal 100% Cambria, Georgia, serif;
+}
+
+/* line 7, sass/style.sass */
+#wrapper {
+  width: 90%;
+  margin: 50px auto;
+  background-color: #99ddee;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+/* line 14, sass/style.sass */
+h1 {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+/* line 19, sass/style.sass */
+h1 a {
+  color: #747474;
+  font: bold 0.45833em Calibri, Optima, Arial, sans-serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 26, sass/style.sass */
+figure {
+  text-align: center;
+}

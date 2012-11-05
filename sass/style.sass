@@ -1,19 +1,27 @@
+@import "compass"
 body
   background-color: #DCDBD9
   color: #2C2C2C
   font: normal 100% Cambria, Georgia, serif
    
 #wrapper
-  width: 960px
+  width: 90% 
   margin: 50px auto
+  background-color: #99ddee
+  @include border-radius(15px)
+  padding: 25px
 
 h1
   font-size: 1.5em // 24px / 16px
   font-style: italic
   font-weight: normal
+  text-align: center
   a
     color: #747474
     font: bold 0.45833333em Calibri, Optima, Arial, sans-serif //11px / 24px
     letter-spacing: 0.15em
     text-transform: uppercase
     text-decoration: none
+
+figure
+  text-align: center
