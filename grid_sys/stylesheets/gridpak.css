@@ -1,0 +1,148 @@
+/*
+ * Gridpak Beta SCSS 
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign */
+/* Reusable column setup */
+/* line 19, ../sass/gridpak.sass */
+.col {
+  border: 0px solid rgba(0, 0, 0, 0);
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding-box !important;
+  -webkit-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+}
+
+/* 1. 12 Column Grid 0px - Infinity
+ *----------------------------------------------------------------------------- 
+ *
+ *Span 1:    8.33333333333%
+ *Span 2:    16.6666666667%
+ *Span 3:    25.0%
+ *Span 4:    33.3333333333%
+ *Span 5:    41.6666666667%
+ *Span 6:    50.0%
+ *Span 7:    58.3333333333%
+ *Span 8:    66.6666666667%
+ *Span 9:    75.0%
+ *Span 10:    83.3333333333%
+ *Span 11:    91.6666666667%
+ *Span 12:    100%
+ *
+ *----------------------------------------------------------------------------- */
+@media screen and (min-width: 0px) {
+  /* line 51, ../sass/gridpak.sass */
+  .row {
+    margin-left: -12px;
+  }
+
+  /* line 53, ../sass/gridpak.sass */
+  .col {
+    border-left-width: 12px;
+    padding: 0 0px;
+  }
+
+  /* --- Gridpak variables --- */
+  /*Add your semantic classnames in alongside their corresponding spans here. e.g.
+   *
+   *.span_3,
+   *.my_semantic_class_name {
+   *    ...
+   *} */
+  /* line 68, ../sass/gridpak.sass */
+  .span_1 {
+    width: 8.33333%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 70, ../sass/gridpak.sass */
+  .span_2 {
+    width: 16.66667%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 72, ../sass/gridpak.sass */
+  .span_3 {
+    width: 25%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 74, ../sass/gridpak.sass */
+  .span_4 {
+    width: 33.33333%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 76, ../sass/gridpak.sass */
+  .span_5 {
+    width: 41.66667%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 78, ../sass/gridpak.sass */
+  .span_6 {
+    width: 50%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 80, ../sass/gridpak.sass */
+  .span_7 {
+    width: 58.33333%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 82, ../sass/gridpak.sass */
+  .span_8 {
+    width: 66.66667%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 84, ../sass/gridpak.sass */
+  .span_9 {
+    width: 75%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 86, ../sass/gridpak.sass */
+  .span_10 {
+    width: 83.33333%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 88, ../sass/gridpak.sass */
+  .span_11 {
+    width: 91.66667%;
+    border-left-width: 12px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+
+  /* line 90, ../sass/gridpak.sass */
+  .span_12 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
